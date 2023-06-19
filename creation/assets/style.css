@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* border: 1px solid yellowgreen; */
+}
+html{
+	font-family: comic-sans-ms;
+}
+/**************************body**************************/
+body{
+	background: linear-gradient( to right, #000000 0%, #3533cd 100%);
+
+}
+/**************************admin profils**************************/
+body {
+	font-family: 'Rubik', sans-serif;
+  }
+  ul {
+	margin: 0;
+	padding: 0;
+  }
+  li {
+	list-style: none;
+  }
+  .bar {
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	background: linear-gradient(#AD2446,#61116E);
+	transition: 0.3s;
+	overflow: hidden;
+	z-index: 1;
+  }
+  .bar:hover {
+	width: 250px;
+  }
+  .li img:hover{
+	width: 500px;
+  }
+  .bar li {
+	padding: 15px;
+	width: 250px;
+  }
+  .bar li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+  }
+  .bar li i {
+	margin-right: 15px;
+	font-size: 16px;
+  }
+  .content {
+	padding: 15px 30px;
+	position: relative;
+	display: inline-block;
+	left: 50px;
+  }
+/**************************header**************************/
+header{
+	background-color: #292664;
+}
+.navbar img{
+	background-color: white;
+	width: 250px;
+	height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.navbar img {
+		width: 200px!important; 
+		height: 200px!important;
+		background-color: greenyellow!important;
+	}
+	.navbar h1{
+		font-size: 30px;
+	}
+}
+/**************************formulaire**************************/
+.inscription-modal, .login-modal{
+    background-color: #fff!important;
+    border-radius: 10px!important;
+    overflow: hidden!important;
+    border-top: 2px solid rgba(0, 0, 0, 0.034);
+    box-shadow: 1px 2.8px 2.8px rgba(0, 0, 0, 0.034), 0 2.8px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0,0,0,0.048), 0 12.8px 10.5px rgba(0, 0, 0, 0.58)!important;
+    width: 680px!important;
+    max-width: 100%!important;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.inscription-modal, .login-modal{
+		width: 400px!important;
+	}
+}
+/**************************footer**************************/
+footer{
+	background: #292664;
+} 
